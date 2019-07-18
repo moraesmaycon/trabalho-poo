@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">trabalhonRodolfo</string>
+    <string name="logoDescription"> Logo Aplicativo</string>
+    <string name="app_nome">Libré</string>
+    <string name="ENTRAR">ENTRAR</string>
+    <string name="e_mail">e-mail</string>
+    <string name="senha">Senha</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="adaptavel">ainda não sei</string>
 </resources>
