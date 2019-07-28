@@ -2,15 +2,12 @@ package com.example.trabalhonrodolfo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
-public class depoisVejo3 extends AppCompatActivity {
+public class depoisVejo4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_depois_vejo3);
+        setContentView(R.layout.activity_depois_vejo4);
     }
-
-
 }

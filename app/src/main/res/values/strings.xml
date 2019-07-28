@@ -8,4 +8,6 @@
     <string name="esqueci_minha_senha">Esqueci minha senha</string>
     <string name="enviar">ENVIAR</string>
     <string name="adaptavel">ainda não sei</string>
+    <string name="n_mero_de_telefone">Número de Telefone</string>
+    <string name="e_mail_cadastrado">E-mail cadastrado</string>
 </resources>

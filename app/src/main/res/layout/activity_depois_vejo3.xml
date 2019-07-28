@@ -24,10 +24,9 @@
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tipoID"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.066" />
 
     <ImageView
         android:id="@+id/logoID"
@@ -67,23 +66,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011" />
 
-    <Spinner
-        android:id="@+id/optionsID"
-        android:layout_width="261dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.597"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoID"
-        app:layout_constraintVertical_bias="0.206" />
-
     <EditText
         android:id="@+id/tipoID"
         android:layout_width="wrap_content"
@@ -99,10 +81,44 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/optionsID"
-        app:layout_constraintVertical_bias="0.139"
-        android:autofillHints="" tools:targetApi="o"/>
+        app:layout_constraintTop_toBottomOf="@+id/logoID"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <RadioButton
+        android:id="@+id/optionNumID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/n_mero_de_telefone"
+        app:layout_constraintBottom_toTopOf="@+id/optionEmailID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoID"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioButton
+        android:id="@+id/optionEmailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/e_mail_cadastrado"
+        app:layout_constraintBottom_toTopOf="@+id/tipoID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoID"
+        app:layout_constraintVertical_bias="0.773" />
 
 </android.support.constraint.ConstraintLayout>
